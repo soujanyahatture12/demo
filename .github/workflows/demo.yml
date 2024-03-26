@@ -8,4 +8,12 @@ jobs:
           run: echo " Hello ITA members!"
         - name: See you soon
           run: echo " Bye Bye"
+  demo2:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Lets do it again here
+          run: |
+              echo "Hi again ITA members"
+              echo "How are you all doing"
+              echo "See you again"
   
